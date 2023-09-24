@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="We are Vigmiti, the new demand-based flexible-service digital marketing agency born out of passion for creativity and strategic brand services. We excel in world-class creative work and in-depth consumer research."
+    />
+    <meta
+      name="keywords"
+      content="Vigmiti, company website, portfolio"
+    />
+    <meta name="theme-color" content="#ba265c" />
+    <title>vigmiti</title>
+
+    <!-- Link To CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Box Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/935404936d.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/phosphor-icons"></script>
+
+    <!-- Mixpanel SDK -->
+    <script type="text/javascript">
+      (function (f, b) {
+        if (!b.__SV) {
+          var e, g, i, h;
+          window.mixpanel = b;
+          b._i = [];
+          b.init = function (e, f, c) {
+            function g(a, d) {
+              var b = d.split(".");
+              2 == b.length && ((a = a[b[0]]), (d = b[1]));
+              a[d] = function () {
+                a.push([d].concat(Array.prototype.slice.call(arguments, 0)));
+              };
+            }
+            var a = b;
+            "undefined" !== typeof c ? (a = b[c] = []) : (c = "mixpanel");
+            a.people = a.people || [];
+            a.toString = function (a) {
+              var d = "mixpanel";
+              "mixpanel" !== c && (d += "." + c);
+              a || (d += " (stub)");
+              return d;
+            };
+            a.people.toString = function () {
+              return a.toString(1) + ".people (stub)";
+            };
+            i =
+              "disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking start_batch_senders people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(
+                " "
+              );
+            for (h = 0; h < i.length; h++) g(a, i[h]);
+            var j = "set set_once union unset remove delete".split(" ");
+            a.get_group = function () {
+              function b(c) {
+                d[c] = function () {
+                  call2_args = arguments;
+                  call2 = [c].concat(Array.prototype.slice.call(call2_args, 0));
+                  a.push([e, call2]);
+                };
+              }
+              for (
+                var d = {},
+                  e = ["get_group"].concat(
+                    Array.prototype.slice.call(arguments, 0)
+                  ),
+                  c = 0;
+                c < j.length;
+                c++
+              )
+                b(j[c]);
+              return d;
+            };
+            b._i.push([e, f, c]);
+          };
+          b.__SV = 1.2;
+          e = f.createElement("script");
+          e.type = "text/javascript";
+          e.async = !0;
+          e.src =
+            "undefined" !== typeof MIXPANEL_CUSTOM_LIB_URL
+              ? MIXPANEL_CUSTOM_LIB_URL
+              : "file:" === f.location.protocol &&
+                "//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)
+              ? "https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js"
+              : "//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";
+          g = f.getElementsByTagName("script")[0];
+          g.parentNode.insertBefore(e, g);
+        }
+      })(document, window.mixpanel || []);
+
+      // Enabling the debug mode flag is useful during implementation,
+      // but it's recommended you remove it for production
+      mixpanel.init("a7a7ed154bd3033a63f703ad5570cad3", { debug: false });
+      mixpanel.track("Sign up");
+    </script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <a href="#" class="logo">vigmiti</a>
+      <div class="bx bx-menu" id="menu-icon"></div>
+      <ul class="navbar">
+        <li><a id="nav-about" href="#about">about</a></li>
+        <li><a id="nav-work" href="#work">work</a></li>
+        <li><a id="nav-info" href="#info">info</a></li>
+        <!-- <li><a id="nav-writings" href="#writings">writings</a></li> -->
+        <li><a id="nav-faqs" href="#faqs">FAQs</a></li>
+        <li><a id="nav-contact" href="#contact">contact</a></li>  
+        <div class="bx bx-moon" id="darkmode"></div>     
+      </ul>
+    </header>
+
+    <!-- Home -->
+    <section class="home" id="home">
+      <div class="social">
+        <a
+          id="twitter-logo"
+          href="#"
+          target="_blank"
+          title="twitter"
+          ><i class="fa-brands fa-twitter"></i
+        ></a>
+        <a
+          id="instagram-logo"
+          href="#"
+          target="_blank"
+          title="instagram"
+        >
+          <i class="fa-brands fa-instagram" alt="hashnode"></i>
+        </a>
+      </div>
+      <div class="home-img">
+        <svg viewBox="0 0 220 220" fill="none"><path d="M62 110C62 145.277 88.0956 176.957 122.036 182.231C127.493 183.079 132 178.523 132 173V53C132 47.4772 127.501 42.9296 122.024 43.6404C88.0893 48.0449 62 74.727 62 110Z" fill="rgb(214, 204, 194)"></path><path d="M100.65 178.279C68.7698 173.325 44 143.42 44 110C44 76.9181 68.4126 51.7769 100.539 47.6072C103.272 47.2523 106 49.5241 106 53V173C106 176.512 103.264 178.685 100.65 178.279Z" stroke="rgb(227, 213, 202)" stroke-width="8"></path></svg>
+      </div>
+      <div class="home-text">
+        <span>hola! 👋, we are</span>
+
+        <h1>VIGMITI</h1>
+        <p>
+          we build brands that live on. A digital branding and
+          <br class="home-text-break" />
+          your technology partner for the digital age.
+          <br>
+          <span class="home-text-welcome">you are at the right place :)</span>
+        </p>
+        <a id="home-contact" href="mailto:jpatelbittu@gmail.com" class="btn">get in touch</a>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+      <div class="heading">
+        <h1>Unleashing Brand Power</h1>
+      </div>
+      <div class="about-container container-spacing">
+        <div class="about-text">
+          <p>
+            Behold Vigmiti, the new demand-based flexible-service digital marketing agency 
+            born out of passion for creativity and strategic brand services. 
+            We excel in world-class creative work and in-depth consumer research. 
+            <br>
+            Lead by 
+            <a
+              id="about-jupiter-link"
+              href="https://github.bittujpatel.io/"
+              target="_blank"
+              ><strong>Chandra Prakash</strong></a
+            >
+            -- cofounder and technology head.
+            <br>
+            <a
+              id="about-jupiter-link"
+              href="#"
+              target="_blank"
+              ><strong>Vikas</strong></a
+            >
+            -- cofounder and marketing head.
+          </p>
+          <div class="information">
+            <div class="info-box">
+              <img
+                src="https://ik.imagekit.io/3dv5nkw89t3/mail_oO3ONrK8w.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1672250138746"
+                alt="mail"
+              />
+              <p>vigmiti@gmail.com</p>
+            </div>
+          </div>
+          <div class="cv">
+            <a
+              id="about-cv-download-clicked"
+              href="#mailto:jpatelbittu@gmail.com"
+              target="_blank"
+              class="btn"
+              >let's talk</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Works -->
+    <section class="work" id="work">
+      <div class="heading">
+        <h2>our parternes and solutions</h2>
+      </div>
+      <div class="work-container container-spacing">
+          <div class>
+            <div class="feature-box__icon--1">
+              <svg viewBox="0 0 220 220" fill="none"><rect x="40" y="40" width="140" height="140" rx="10" fill="rgb(237, 237, 233)"></rect></svg>
+              <h1 class="home-text heading-tertiary">14</h1>
+            </div>
+            <p class="feature-box__text">
+              digital soultions
+            </p>
+          </div>
+          <div class>
+            <div class="feature-box__icon--1">
+              <svg viewBox="0 0 220 220" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M170 180C175.523 180 180 175.523 180 170V50C180 44.4772 175.508 39.9629 169.999 40.3517C100.65 45.2467 45.2467 100.65 40.3517 169.999C39.9629 175.508 44.4772 180 50 180H170Z" fill="rgb(237, 237, 233)"></path></svg>
+              <h1 class="home-text heading-tertiary">37</h1>
+            </div>
+            <p class="feature-box__text">
+              creative approaches
+            </p>
+            <!-- <a
+              id="work-cryptobase-link"
+              href="https://crypto-base-landing-page.vercel.app/"
+              target="_blank"
+              class="btn"
+              >check it out</a
+            > -->
+          </div>  
+          <div class>
+            <div class="feature-box__icon--1">
+              <svg viewBox="0 0 220 220" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M114 40C75.3401 40 44 71.34 44 110C44 148.66 75.34 180 114 180C152.66 180 184 148.66 184 110C184 71.34 152.66 40 114 40ZM114 140C97.4314 140 84 126.569 84 110C84 93.4314 97.4315 80 114 80C130.569 80 144 93.4314 144 110C144 126.569 130.569 140 114 140Z" fill="rgb(237, 237, 233)"></path></svg>
+              <h1 class="home-text heading-tertiary">12</h1>
+            </div>
+            <p class="feature-box__text">
+              satisfied clients
+            </p>
+          </div>                  
+        </div>
+      </div>
+    </section>
+
+    <!-- Info Section -->
+    <section class="info-section" id="info">
+      <div class="container">
+        <div class="info-item" style="background-image: url('images/brandingbg.webp');">
+          <div class="info-content">
+            <h3>Fueling Businesses with Smart Branding & Marketing Solutions</h3>
+            <p>Vigmiti unlocks the potential in branding, identity design, logo creation, and website development. Our commitment paves the way for a strong digital presence that wins users’ hearts.</p>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="container">
+        <div class="info-item" style="background-image: url('images/digitalbg.webp');">
+          <div class="info-content">
+            <h3>Redefining Digital Interactions for a Limitless Future</h3>
+            <p>Our design philosophy enables users to access the most relevant content while effortlessly traversing your website's digital realm, converting them to loyal customers.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Writings -->
+    <!-- <section class="writings" id="writings">
+      <div class="heading">
+        <h2>us</h2>
+      </div>
+      <div class="writings-container container-spacing">
+        <a
+          id="writings-websocket-link"
+          href="https://blog.nischalnikit.com/inside-websockets-building-a-chat-application"
+          target="_blank"
+          class="story"
+        >
+          <figure>
+            <img
+              class="story-image"
+              src="https://ik.imagekit.io/3dv5nkw89t3/Onboarding_Plan__1__UkCDOi14p.png?ik-sdk-version=javascript-1.4.3&updatedAt=1675591573129"
+              alt="Article 1"
+            />
+          </figure>
+          <div class="story-text">
+            <h2>Inside WebSockets: Building a Chat Application.</h2>
+            <p>
+              "A deep dive into how a network protocol makes it possible for
+              real-time communication to happen on the internet and leveraging
+              it through a mini-app."
+            </p>
+          </div>
+        </a>
+        <a
+          id="writings-blockchainapp-link"
+          href="https://web3.hashnode.com/how-to-build-and-deploy-a-modern-web3-blockchain-app-tutorial"
+          target="_blank"
+          class="story"
+        >
+          <figure class="story-shape">
+            <img
+              class="story-image"
+              src="https://ik.imagekit.io/3dv5nkw89t3/writing-3_OLSPPDvle.png?ik-sdk-version=javascript-1.4.3&updatedAt=1672250138987"
+              alt="Article 2"
+            />
+          </figure>
+          <div class="story-text">
+            <h2>
+              build and deploy a fun, modern web3 blockchain app - step by step
+              tutorial
+            </h2>
+            <p>
+              "in this web3 tutorial, we'll be building a fully-functional
+              blockchain, web3 app. We'll be starting with the basics of
+              building a blockchain app and at the end, we'll get our web3 app
+              live for everyone to use..."
+            </p>
+          </div>
+        </a>
+        <a
+          id="writings-chromeextension-link"
+          href="https://techblog.geekyants.com/building-a-chrome-extension-in-2021"
+          target="_blank"
+          class="story"
+        >
+          <figure class="story-shape">
+            <img
+              class="story-image"
+              src="https://ik.imagekit.io/3dv5nkw89t3/writing-1_K2nF9uGC6o.png?ik-sdk-version=javascript-1.4.3&updatedAt=1672250138325"
+              alt="Article 3"
+            />
+          </figure>
+          <div class="story-text">
+            <h2>building a chrome extension in 2021</h2>
+            <p>
+              "a huge part of what makes chrome such a widely-used product is
+              how expandable it is and chrome extensions have had a huge role to
+              play in this expansion. there's a chrome extension for anything
+              and everything in this world and what's great is that it's
+              remarkably easy to build one by yourself..."
+            </p>
+          </div>
+        </a>
+      </div>
+    </section> -->
+
+    <!-- FAQ Section -->
+    <section id="faqs" class="faqs">
+      <div class="heading"><h1> curious minds </h1><br></div>
+      <div class="section-title">
+        <h3>faqs</h3> 
+        <br>
+      </div>
+      <div class="container" data-aos="fade-up">
+        <div class="faq-list">
+          <!-- FAQ Item 1 -->
+          <div class="faq-item">
+            <div class="question">
+              <h4>Why choose Vigmiti?</h4>
+            </div>
+            <div class="answer">
+              <p>
+                At Vigmiti, we offer a fusion of strategic expertise, creative
+                mindsets, and a relentless drive to help your brand flourish in
+                the digital world.
+              </p>
+            </div>
+          </div>
+          <br>
+          <!-- FAQ Item 2 -->
+          <div class="faq-item">
+            <div class="question">
+              <h4>What services do we offer?</h4>
+            </div>
+            <div class="answer">
+              <p>
+                Vigmiti excels in branding, identity design, logo creation, website
+                development, and innovative marketing strategies that drive results.
+              </p>
+            </div>
+          </div>
+          <br>
+          <!-- FAQ Item 3 -->
+          <div class="faq-item">
+            <div class="question">
+              <h4>How do we ensure success?</h4>
+            </div>
+            <div class="answer">
+              <p>
+                We craft personalized digital experiences and solutions,
+                leveraging data-driven insights, to captivate users and meet your
+                marketing objectives.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Founders Section -->
+    <section class="masterminds" id="founders">
+      <h2>Masterminds</h2>
+      <p>Meet our ingenious founders, the driving force behind Vigmiti's success.</p>
+      <div class="container">
+        <div class="list" style="align-items: center;">
+          <div class="founder">
+            <div class="founder-info">
+              <img src="images/cpjp.webp" alt="Chandra Prakash">
+              <h3>CHANDRA PRAKASH</h3>
+              <p>Co-founder</p>
+              <p>Analyst at Capgemini</p>
+              <div class="social-icons">
+                <a href="mailto:jpatelbittu@gmail.com"><i class="fa fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/bittujpatel/"><i class="fa fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="founder">
+            <div class="founder-info">
+              <img src="images/vikas.webp" alt="Vikas Kumar">
+              <h3>VIKAS <br> KUMAR</h3>
+              <p>Co-founder</p>
+              <p>MT at HDFC bank</p>
+              <div class="social-icons">
+                <a href="mailto:vikaskumarbng@gmail.com"><i class="fa fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/iamvikaskumar/"><i class="fa fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>        
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+      <div class="heading">
+        <h2> get in touch for more information </h2>
+      </div>
+      <div class="contact-container container-spacing">
+        <p>If you want to work together we are here, contact us soon. 😊</p>
+      </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>
+        &#xA9; 2023 built for and by
+        <span class="footer-name">vigmiti </span>
+      </p>
+    </footer>
+
+    <!-- Link To JS -->
+    <script src="script.js"></script>
+  </body>
+</html>
